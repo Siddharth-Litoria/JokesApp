@@ -1,7 +1,7 @@
 var express = require('express');
 var request = require('request');
 var app = express();
-var port = process.env.port || 3000;
+
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
@@ -140,6 +140,6 @@ app.get('/getJokes/:type', function (req, res) {
   }
 });
 
-app.listen(port, function () {
-  console.log(`Server running at http://localhost:${port}/getJokes/dadJokes`);
+app.listen( function () {
+  console.log();
 });
