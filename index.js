@@ -17,7 +17,7 @@ app.get('/getJokes/:type', function (req, res) {
         headers: {
           'x-rapidapi-host': 'dad-jokes.p.rapidapi.com',
           'x-rapidapi-key':
-            '0fd4d724ffmsh4ea8edb72ad20bdp186caejsn8a504fc2f046',
+            'f3e5bb1435mshd5aa99c463b314bp171acajsna1c014af43f3',
           useQueryString: true,
         },
       },
